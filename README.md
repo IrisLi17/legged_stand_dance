@@ -1,4 +1,7 @@
-# Modified from Isaac Gym Environments for Legged Robots #
+# Agile Bipedal Motions on a Quadruped Robot #
+[Project website](https://sites.google.com/view/bipedal-motions-quadruped)
+
+The code is modified from Isaac Gym Environments for Legged Robots.
 
 ### Installation ###
 1. Create a new python virtual env with python 3.6, 3.7 or 3.8 (3.8 recommended)
