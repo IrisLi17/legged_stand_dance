@@ -1,0 +1,14 @@
+# IDEs
+.idea
+
+.DS_Store
+
+# builds
+*.egg-info
+
+# cache
+__pycache__
+.pytest_cache
+
+# vs code
+.vscode
