@@ -5,7 +5,7 @@
 2. Install pytorch 1.10 with cuda-11.3:
     - `pip3 install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio==0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html`
 3. Install Isaac Gym
-   - Download and install Isaac Gym Preview 3 (Preview 2 will not work!) from https://developer.nvidia.com/isaac-gym
+   - Download and install Isaac Gym Preview 3 (does not directly work on Preview 4)
    - `cd isaacgym/python && pip install -e .`
    - Try running an example `cd examples && python 1080_balls_of_solitude.py`
    - For troubleshooting check docs `isaacgym/docs/index.html`
@@ -13,6 +13,8 @@
    - Clone and `cd` to this repository
    -  `cd rsl_rl && pip install -e .` 
    - `cd legged_gym_dance && pip install -e .`
+5. Install other dependencies
+   - `pip install tensorboard wandb`
 
 ### Usage ###
 0. ```cd legged_gym_dance```
